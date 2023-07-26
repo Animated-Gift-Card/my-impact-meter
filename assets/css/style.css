@@ -1,0 +1,26 @@
+
+/* Nav-bar code start */
+#logimg{
+    height: 50px;
+    padding-top: 5px;
+}
+#nav-right{
+    margin-left: 70px;
+}
+#navbarNavDropdown ul li a{
+    color:  black;
+}
+#navbarNavDropdown ul li a:hover{
+    color: red;
+}
+
+/* Nav-bar code end */
+
+/* Header-img start */
+#header{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/jannes-jacobs-FvGo3A9ptM0-unsplash-1-scaled.jpg);
+}
