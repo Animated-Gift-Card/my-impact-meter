@@ -3,91 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/css/all.css">
     <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/js/all.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
     <title>My-Impact-Meter</title>
 </head>
-<style>
-    *{
-        padding: 0;
-        margin: 0;
-        overflow-x: hidden;
-    }
-    .bg{
-        width: 100%;
-        height: 500px;
-        background: url(/assets/images/Impact-MeterQuote.jpg);
-        background-color: #010101;
-        /* opacity: 0.43; */
-         transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .topbar {
-        width: 100%;
-        height: 70px;
-        padding: 10px;
-    }
-    .bg-data{
-        color: #F2E9EB;
-        text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-        margin: 0% 0% 0% 0%;
-        font-family: "Poppins";
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 48px;
-    }
-</style>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light topbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
+    <!-- Navbar start -->
+    <div class="container-fluid m-0">
+      <!-- row start -->
+      <div class="row bg-light m-0 p-1">
+          <div class="col-1"></div>
+          <!-- Logo image -->
+          <div class="col-3">
+              <img src="./assets/images/MIM-Logo-2 (1).svg" alt="logo not found" id="logimg">
           </div>
-        </div>
-      </nav>
+          <!-- Nav section -->
+          <div class="col-7 p-1" id="nav-right">
+              <nav class="navbar navbar-expand-lg bg-light">
+                  <div class="container-fluid">
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                          <ul class="navbar-nav">
+                              <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                      aria-expanded="false">
+                                      Roles
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Impactor</a></li>
+                                      <li><a class="dropdown-item" href="#">NGO</a></li>
+                                      <li><a class="dropdown-item" href="#">Grocery Supplier</a></li>
+                                      <li><a class="dropdown-item" href="#">Education Supplier</a></li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                      aria-expanded="false">
+                                      Resources
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">#EndPoverinPakistan</a></li>
+                                      <li><a class="dropdown-item" href="#">Impac Tech</a></li>
+                                      <li><a class="dropdown-item" href="#">Reports & Insights</a></li>
+                                      <li><a class="dropdown-item" href="#">Careers</a></li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="#">News & Blogs</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="#">About Us</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+              <!-- nav-end -->
+          </div>
+          <div class="col-1"></div>
+      </div>
+      <!-- row end -->
+  </div>
 
       <div class="bg">
       <h4 class="bg-data" m-0> Choose Impact, Any Day, Every Day</h4>
       </div>
       <div class="container">
         <div class="row m-0">
-          <div class="col-2"></div>
-          <div class="col-8">
-            <h4 class="text-center m-0">About Us</h4>
-        <p>Impactors are people who want to make this world better! Impactees are those who need support. Impact suppliers are grocery stores, doctors and schools.
+          <div class="col-1"></div>
+          <div class="col-10">
+            <div class="about-content">
+            <h2 class="text-center about-heading m-5" width="100%">About Us</h2>
+            <p>Impactors are people who want to make this world better! Impactees are those who need support. Impact suppliers are grocery stores, doctors and schools.</p>
 
-          My Impact Meter is a Centralized Platform, Social Media and Impact Services Ecosystem for creating Impact.
+          <p>My Impact Meter is a Centralized Platform, Social Media and Impact Services Ecosystem for creating Impact.</p>
           
-          The platform connects Impactors to Impact Suppliers from where they can buy food, health services and education services for Impactees of their choice. Impactees can then physically go and avail these services. So that all impact happens in one place, Impactors can also donate to NFPs through the platform. My Impact Meter creates an impact footprint to measure success in terms of impact, so impactors keep setting a higher bar for themselves! Impactors can invite their friends to become their Impact buddies and multiply their impact with friends!</p>
+          <p>The platform connects Impactors to Impact Suppliers from where they can buy food, health services and education services for Impactees of their choice. Impactees can then physically go and avail these services. So that all impact happens in one place, Impactors can also donate to NFPs through the platform. My Impact Meter creates an impact footprint to measure success in terms of impact, so impactors keep setting a higher bar for themselves! Impactors can invite their friends to become their Impact buddies and multiply their impact with friends!</p>
           </div>
-          <div class="col-2"></div>
+          <div class="col-1"></div>
 
         </div>
         
       </div>
     </div>
-    
-    
+
+    <div class="container home-bg m-5">
+      <img src="/assets/images/home3.png" alt="">
+    </div>
+    <div class="home-content-main-heading m-3">
+      <h2>Would you like to become a Volunteer?</h2>
+    </div>
+    <div class="wrapperrr">
+    <div class="col-2"></div>
+    <div class="home-content-para col-8 m-5">
+      <p>My Impact Meter needs all the volunteers we can get. If you would like to become a volunteer, please email us at <strong>info@myimpactmeter.com</strong> with the title: “Volunteer” and we will send you the whole volunteer pack.</p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+  <div class="cards bg-success" width="100%" align="center">
+    <div id="card1">
+      <img src="/assets/images/f3_11zon.png" alt="">
+      <div class="card-body">
+      </div>
+    </div>
+    <div id="card2">
+      <img src="/assets/images/f2.jpg" alt="">
+    </div>
+    <div id="card3">
+      <img src="/assets/images/f1.jpg" alt="">
+    </div>
+  </div>
+
+<div class="home-content-main-heading m-3">
+  <h2>Frequently Asked Questions (FAQ)</h2>
+</div>
 </body>
 </html>
