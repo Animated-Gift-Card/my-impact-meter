@@ -192,9 +192,143 @@
 .faq > h2 {
     color: #d83456;
     position: sticky;
-    margin-top: 70px;
+    margin-top: 50px;
     font-size: 39px;
     font-weight: 600;
 }
+
+.faq-card {
+        color: #345695;
+        border-style: solid;
+        border-color: #d83456;
+}
+button {
+    color: #345695;
+}
+.accordion-header > a[aria-expanded='false'] {
+    color: #345695;
+    font-weight: 500;
+}
+
+.m-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+.m-team > h2 {
+    color: #d83456;
+    position: sticky;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: 600;
+}
+.profile {
+   display: flex;
+   place-items: center;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    padding: 40px 20px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+}
+.profile-card:hover {
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.3);
+}
+.profile-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-top: 28px;
+}
+.profile-header > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50% 50% 50% 50%;
+}
+.profile-body {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.profile-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #d83456;
+}
+.profile-designation {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -10px;
+    text-emphasis-style: bold;
+    color: #d83456;
+}
+.profile-content {
+    font-size: 14px;
+    font-weight: 500;
+    color: #54595f;
+}
+.t-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+}
+.t-team > h2 {
+    color: #d83456;
+    position: sticky;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: 600;
+}
+.t-team-details {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    width: 884px;
+    height: 52px;
+    margin-left: 220px;
+}
+.t-team-details > p {
+    color: #54595f;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+.profile2 {
+   display: flex;
+   place-items: center;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+.profile2 > .profile-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    padding: 40px 20px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+}
+.profile2 > .profile-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #d83456;
+}
+.profile2 > .profile-content {
+    font-size: 17px;
+    color: #54595f;
+}
+
 
 /* About html end */
