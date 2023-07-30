@@ -1,9 +1,10 @@
 
-/* Home Page Start */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 *
 {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins';
 }
 /* Nav-bar code start */
 #logimg{
@@ -275,12 +276,6 @@
     display: block;
     background-color: #010101;
 }
-
-
-
-
-/* Grocery Supplier html End */
-
 /* About html */
 .bg{
     width: 100%;
@@ -320,10 +315,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
+   
+    
 }
 .home-bg > img {
-    width: 36%;
     height: 379px;
+    width: 40%;
+    margin-left: 200px;
 }
 .home-content-main-heading {
     display: flex;
@@ -362,46 +360,57 @@
 
 .cards {
     height: 500px;
+    gap: 20px;
+    /* position: absolute; */
+    margin-left: 275px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    place-items: center;
-    position: relative;
+    margin-top: -15px;
+    
 }
 .card-body {
     height: 90px;
+    position: relative;
     margin-top: -40px;
     width: 90%;
     border-radius: 12px;
+    background: #54595f;
     background-color: #ffffff;
     box-shadow: -1.21px 6.894px 15px 0px rgba(0,0,0,0.07);
+}
+.card-body-text {
+    color: #54595f;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0;
+    margin: 10px;
+}
+.card-body-text:hover {
+    display: block;
+    transition: 0.2s all ease;
+    opacity: 1;
+}
+
+.card-body:hover {
+    height: 200px;
+    width: 90%;
+    display: block;
+    transition: 0.4s all ease;
+    opacity: 1;
+}
+.card-body > h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #d83456;
+    margin-top: 15px;
 }
  #card1 {
     width: 350px;
     height: 350px;
     background: #F2E9EB;
  }
- /* .card-body::before {
-    position: absolute;
-    content: "";
-    bottom: -10px;
-    left: 50%;
-    height: 100%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: calc(100% - 20px);
-    z-index: -1;
-    -webkit-transition: all .4s ease;
-    transition: all .4s ease;
-    opacity: 0;
-    border-radius: 10px;
-    background-color: #fff;
- }
- .card-body::after {
-    background-color: #ffffff;
-    box-shadow: -1.21px 6.894px 15px 0px rgba(0,0,0,0.07);
-} */
  #card1 > img {
     width: 350px;
     height: 350px;
@@ -424,18 +433,431 @@
     width: 350px;
     height: 350px;
  }
-
- .FAQ {
-    margin: 3% 2% 2% 2%;
+ .faq{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
  }
- .FAQ > h2 {
+.faq > h2 {
     color: #d83456;
+    position: sticky;
+    margin-top: 50px;
     font-size: 39px;
     font-weight: 600;
+}
+
+.faq-card {
+        color: #345695;
+        border-style: solid;
+        border-color: #d83456;
+}
+button > span {
+    color: #345695;
+    font-weight: 900;
+}
+.m-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
  }
+.m-team > h2 {
+    color: #d83456;
+    position: sticky;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: 600;
+}
+.profile {
+   display: flex;
+   place-items: center;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    padding: 40px 20px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+}
+
+.profile-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-top: 28px;
+}
+.profile-header > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50% 50% 50% 50%;
+}
+.profile-body {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.profile-title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #d83456;
+}
+.profile-designation {
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: -10px;
+    text-emphasis-style: bold;
+    color: #d83456;
+}
+.profile-content {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #54595f;
+}
+.t-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+}
+.t-team > h2 {
+    color: #d83456;
+    position: sticky;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: bolder;
+}
+.t-team-details {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bolder;
+    width: 884px;
+    height: 52px;
+    margin-left: 220px;
+}
+.t-team-details > p {
+    color: #54595f;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+.profile2 {
+   display: flex;
+   place-items: center;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+.profile2 > .profile-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    padding: 40px 20px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+}
+.profile2 > .profile-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #d83456;
+}
+.profile2 > .profile-content {
+    font-size: 17px;
+    color: #54595f;
+}
+.profile-card:hover {
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.3);
+}
+.profile2 > .profile-card:hover {
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.3);
+}
+
+/* About css end */
 
 
-/* About html end */
+ /* hero section start */
+ .hero{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    background-image: url(./assets/images/chayene-rafaela-nGwkIZFelko-unsplash_11zon.jpg);
+    background-size: cover;
+    background-position-x: right;
+    position: absolute;
+}
+#h1focus{
+    color: white;
+    margin: 230px 0px 0px 90px;
+    font-size: 40px;    
+}
+#h1down{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0px 0px 125px;
+    font-weight: bolder;
+}
+#imgapplestore{
+    width: 100px;
+    margin: 30px 0px 0px 100px;
+}
+#imggoogleplay{
+    width: 100px;
+    margin: 30px 0px 0px 15px;
+}
+#qrimgapple{
+    width: 100px;
+    margin: 20px 0px 0px 85px;
+}
+#qrimggoogle{
+    width: 100px;
+    margin: 20px 0px 0px 20px;
+}
+/* hero section end */
+
+/* Unlock new funding and increase your NGO's impact with us! start */
+#h1unlock1{
+    color: #d83456;
+    position: absolute;
+    margin: 640px 0px 0px 200px;
+    font-weight: bolder;
+}
+#h1unlock2{
+    color: #d83456;
+    position: absolute;
+    margin: 680px 0px 0px 480px;
+    font-weight: bolder;
+}
+#paraunlock{
+    position: absolute;
+    color: #d83456;
+    margin: 760px 0px 0px 150px;
+    word-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btnngo{
+    position: absolute;
+    color: #d83456;
+    background-color: white;
+    margin: 840px 0px 0px 580px;
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    border-color: #d83456;
+    box-shadow: 10px black;
+    
+}
+#btnngo:hover{
+    color: white;
+    background-color: #d83456;
+}
+/* Unlock new funding and increase your NGO's impact with us! end */
+/*microsoft teamimage start */
+#imgmicrosoft{
+    position: absolute;
+    margin: 900px 0px 0px 100px;
+    width: 1150px;
+}
+#h1explainer{
+    position: absolute;
+    margin: 1450px 0px 0px 200px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#h1demo{
+    position: absolute;
+    margin: 1450px 0px 0px 300px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#video1{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 90px;
+    height: 300px;
+}
+#video2{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 150px;
+    height: 300px;
+}
+/* microsoft teamimage end */
+
+/* Sign up and Register Your NGO start */
+#h1register{
+    color: #d83456;
+    position: absolute;
+    margin: 1900px 0px 0px 350px;
+    font-weight: bolder;
+}
+#imgnfp{
+    position: absolute;
+    margin: 2000px 0px 0px 0px;
+    width: 750px;
+    height: 350px;
+}
+#pararegister{
+    position: absolute;
+    color: #d83456;
+    font-weight: bolder;
+    margin: 2150px 0px 0px 100px;
+    font-size: 16px;
+}
+
+/* Sign up and Register Your NGO end */
+/* Get Your NGO Approved start */
+#imgapproved{
+    position: absolute;
+    margin: 2450px 0px 0px 400px;
+    width: 800px;
+    height: 430px;
+}
+#pararapproved{
+    position: absolute;
+    color: #d83456;
+    margin: 2600px 0px 0px 40px;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+#h1approved{
+    position: absolute;
+    color: #d83456;
+    font-weight:bolder ;
+    margin: 2380px 0px 0px 440px;
+}
+/* Get Your NGO Approved end */
+/* Complete Setup start */
+#h1complete{
+    position: relative;
+    color: #d83456; 
+    margin: 2900px 0px 0px 500px;
+    font-weight: bolder;
+}
+#imgcomplete{
+    width: 800px;
+    height: 430px;
+    margin: 30px 0px 0px 0px ;
+}
+#paracomplete{
+    color: #d83456;
+    font-size: 17px;
+    margin: 200px 40px 0px 20px;
+    font-weight: bold;
+}
+/* Complete Setup end */
+
+/* Create Causes/ Campaigns start */
+#h1creat{
+    color: #d83456;
+    margin: 30px 0px 0px 400px;
+    font-weight: bolder ;
+}
+#imgcreat{
+    width: 700px;
+    height: 300px;
+    margin: 0px 40px 0px 0px;
+}
+#paracreat{
+    color: #d83456;
+    margin: 90px 0px 0px 100px ;
+    font-weight: bolder;
+}
+/* Create Causes/ Campaigns end */
+
+/* Add Bank Account Details start */
+#h1bank{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 400px;
+}
+#imgbank{
+    width: 800px;
+    height: 430px;
+    margin: 20px 30px 0px 40px ;
+}
+#parabank{
+    color: #d83456;
+    margin: 200px 0px 0px 90px;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+/* Add Bank Account Details end */
+
+/* Create Aid Packages start */
+#h1packeg{
+    color: #d83456;
+    margin: 40px 0px 0px 450px;
+    font-weight: bolder;
+}
+#imgpackeg{
+    width: 730px;
+    height: 400px;
+    margin: 20px 80px 0px 0px;
+}
+#parapackeg{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 150px 0px 0px 20px;
+}
+/* Create Aid Packages end*/
+/* ACT Now to Contribute towards Flood Relief start */
+#h1contribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 250px;
+    font-weight: bolder;
+}
+#videocontribute{
+    width: 550px;
+    height: 300px;
+    margin: 80px 0px 0px 30px;
+}
+#paracontribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 170px 0px 0px 40px;
+    font-size: 17px;
+}
+
+/* ACT Now to Contribute towards Flood Relief end */
+
+/*  */
+#h1download{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 60px 0px 0px 500px;
+}
+#imgapple{
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 20px;
+    
+}
+#imggoogle{
+    width: 100px;
+    margin-top: 20px;
+    
+
+}
+#imgappleqr{
+    width: 135px;
+    margin: 10px 0px 0px 520px;
+}
+#imgqrgoogle{
+    width: 135px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+/*  */
