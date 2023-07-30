@@ -861,3 +861,59 @@ button > span {
     margin-top: 10px;
 }
 /*  */
+
+/* Newss and blog start */
+/* Blogs section home page */
+.home > h3 {
+    color: #484f5e;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    line-height: 1.1;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 24px;
+}
+.home h3 > a{
+    color: #364596;
+    font-size: 28px;
+    text-decoration: none;  
+}
+.blog-data {
+    font-size: 14px;
+}
+p > span {
+   color: #d83456;
+}
+.blog-img{
+    width: 280px;
+    height: 192px;
+    display: flex;
+}
+.blog-img > img {
+    width: 280px;
+    height: 187px;
+}
+.entry-summary {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+}
+.entry-summary > p {
+    font-size: 14px;
+    color: #54595f;
+    font-weight: bold;
+}
+.entry-summary > button {
+    color: #d83456;
+    border-radius: 8px;
+    border: solid #d83456;
+    padding: 5px;
+    background: #fff;
+}
+.entry-summary > button:hover {
+    color: white;
+    background: #d83456;
+}
+
+
