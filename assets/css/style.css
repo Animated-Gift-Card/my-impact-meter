@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 *
 {
     padding: 0;
@@ -22,14 +24,259 @@
 /* Nav-bar code end */
 
 /* Header-img start */
+/* Header-img start */
 #header{
     height: 600px;
     width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/jannes-jacobs-FvGo3A9ptM0-unsplash-1-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/jannes-jacobs-FvGo3A9ptM0-unsplash-1-scaled.jpg);
+    background-position: center;
+    
 }
-/* About css */
+.header-text{
+    position: absolute;
+    top: 35%;
+    left: 140px;
+}
+#apptitle{
+    position: absolute;
+    top: 60%;
+    left: 140px;
+}
+#playstore{
+    position: absolute;
+    top:70%;
+    left: 240px;
+}
+#applestore{
+    position: absolute;
+    top:70% ;
+    left: 130px;
+}
+#scanner1{
+    position: absolute;
+    top:77% ;
+    left: 130px;
+}
+#scanner2{
+    position: absolute;
+    top:77% ;
+    left: 240px;
+}
+
+/* Header image End */
+
+/* I Am Section Start */
+.impactor-box{
+    box-shadow: 2px 1px 10px 0px rgba(0.017349243164081683, 0.017349243164081683, 0.017349243164081683, 0.14);
+    border-style:solid ;
+    border-color: var(--e-global-color-4f42aec );
+    border: none;
+    padding-left: 30px;
+}
+.ngo-h{
+    color: #345695;   
+}
+.myHeading a{
+    color: #345695;
+}
+.impactor-fl{
+    font-size: 18px;
+}
+.impactor-button{
+    border-radius: 20px;
+    box-shadow: none;
+}
+/* I am Section Start */
+
+/* Our Model Section Start */
+.ourmodel{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.ourmodel1{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.ourmodel2{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+.ourmodel3{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 65%;
+}
+.ourmodel-icon1{
+    font-size: 36px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+.ourmodel1:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel1:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.ourmodel2:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel2:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.ourmodel3:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel3:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.model-content a{
+    font-size: 16px;
+    color: gray;
+}
+.model-content {
+    font-size: 16px;
+    color: gray;
+}
+/* Our Model Section End */
+/* Startof Poverty Section in Home Page */
+.poverty-section{
+    display: block;
+}
+.poverty-left{
+    float: left;
+}
+.poverty-right{
+    float: right;
+}
+/* End of Poverty Section in Home Page */
+
+/* Start of Footer Section */
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #132d5c;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 0px !important;
+}
+.Contact-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+.Company-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 37%;
+}
+.App-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 65%;
+}
+.footer-icons a i{
+    font-size: 30px;
+    color:white;
+    background-color: #6EC1E4;
+    border: 2px solid #6EC1E4;
+    border-radius: 10px;
+    transition: width 2s,height 2s;
+}
+.footer-icons a i:hover{
+    width:40px;
+}
+
+
+/* End of Footer Section */
+/* Home Page End */
+
+/* Grocery Supplier html Start */
+#groceryHeader{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/Grocery_supplier_images/Spice_market-India-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.header-text{
+    position: absolute;
+    top: 35%;
+    left: 140px;
+}
+#apptitle{
+    position: absolute;
+    top: 60%;
+    left: 140px;
+}
+#playstore{
+    position: absolute;
+    top:75%;
+    left: 240px;
+}
+#applestore{
+    position: absolute;
+    top:75% ;
+    left: 130px;
+}
+#scanner1{
+    position: absolute;
+    top:85% ;
+    left: 130px;
+}
+#scanner2{
+    position: absolute;
+    top:85% ;
+    left: 240px;
+}
+/* why become a grocery supplier section */
+.Grocery-cards{
+    width: 80%;
+    height: 400px;
+    position: relative;
+}
+.Grocery-cards1{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Grocery-cards2{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left:65%;
+}
+
+/* MiM Shops Section */
+.firstrow:hover .lahore h2{
+    display: block;
+    background-color: #010101;
+}
+/* About html */
 .bg{
     width: 100%;
     height: 500px;
