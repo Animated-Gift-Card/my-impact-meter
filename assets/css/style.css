@@ -68,10 +68,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
+   
+    
 }
 .home-bg > img {
-    width: 36%;
     height: 379px;
+    width: 40%;
+    margin-left: 200px;
 }
 .home-content-main-heading {
     display: flex;
@@ -202,14 +205,10 @@
         border-style: solid;
         border-color: #d83456;
 }
-button {
+button > span {
     color: #345695;
+    font-weight: 900;
 }
-.accordion-header > a[aria-expanded='false'] {
-    color: #345695;
-    font-weight: 500;
-}
-
 .m-team{
     display: flex;
     align-items: center;
@@ -258,19 +257,19 @@ button {
 }
 .profile-title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bolder;
     color: #d83456;
 }
 .profile-designation {
     font-size: 13px;
-    font-weight: 500;
+    font-weight: bolder;
     margin-top: -10px;
     text-emphasis-style: bold;
     color: #d83456;
 }
 .profile-content {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bolder;
     color: #54595f;
 }
 .t-team {
@@ -284,12 +283,13 @@ button {
     position: sticky;
     margin-top: 50px;
     font-size: 39px;
-    font-weight: 600;
+    font-weight: bolder;
 }
 .t-team-details {
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
+    font-weight: bolder;
     width: 884px;
     height: 52px;
     margin-left: 220px;
@@ -320,7 +320,7 @@ button {
 }
 .profile2 > .profile-title {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bolder;
     color: #d83456;
 }
 .profile2 > .profile-content {
