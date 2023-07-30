@@ -276,7 +276,7 @@
     display: block;
     background-color: #010101;
 }
-/* About html */
+/* About us css */
 .bg{
     width: 100%;
     height: 500px;
@@ -872,10 +872,11 @@ button > span {
     margin-left: 10px;
     font-weight: 400;
     font-size: 24px;
+    width: 80%;
 }
 .home h3 > a{
     color: #364596;
-    font-size: 28px;
+    font-size: 24px;
     text-decoration: none;  
 }
 .blog-data {
@@ -915,5 +916,6 @@ p > span {
     color: white;
     background: #d83456;
 }
+
 
 
