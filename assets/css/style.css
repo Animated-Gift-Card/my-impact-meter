@@ -163,15 +163,13 @@
     float: right;
 }
 /* End of Poverty Section in Home Page */
-
 /* Start of Footer Section */
 .footer{
     height: 400px;
-    width: 100%;
+    width: 100% !important;
     background-color: #132d5c;
     position: relative;
     margin-top: 80px;
-    margin-left: 0px !important;
 }
 .Contact-section{
     width: 25%;
@@ -272,10 +270,49 @@
 }
 
 /* MiM Shops Section */
-.firstrow:hover .lahore h2{
-    display: block;
-    background-color: #010101;
+
+
+.content{
+    height: 100%;
+    width: 94%;
+    position: absolute;
+    overflow: hidden;
+    bottom: -100%;
+    transition: all 0.5s;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.4);
+    transform: translate();
 }
+.lahore:hover .content{
+    bottom: 0;
+}
+.islamabad:hover .content{
+    bottom: 0;
+}
+.sialkot:hover .content{
+    bottom: 0;
+}
+.rawalpindi:hover .content{
+    bottom: 0;
+}
+.faisalabad:hover .content{
+    bottom: 0;
+}
+.peshawer:hover .content{
+    bottom: 0;
+}
+.gujranwala:hover .content{
+    bottom: 0;
+}
+.daska:hover .content{
+    bottom: 0;
+}
+.pano:hover .content{
+    bottom: 0;
+}
+
+/* About html */
 /* About us css */
 .bg{
     width: 100%;
