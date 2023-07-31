@@ -4,289 +4,75 @@
     <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.css">
     <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>NGO</title>
-    <style>
-        /* hero section start */
-        .hero{
-            width: 100%;
-            height: 600px;
-            background-color: blueviolet;
-            background-image: url(./assets/images/chayene-rafaela-nGwkIZFelko-unsplash_11zon.jpg);
-            background-size: cover;
-            background-position-x: right;
-            position: absolute;
-        }
-        #h1focus{
-            color: white;
-            margin: 230px 0px 0px 90px;
-            font-size: 40px;    
-        }
-        #h1down{
-            color: white;
-            font-size: 22px;
-            margin: 20px 0px 0px 125px;
-            font-weight: bolder;
-        }
-        #imgapplestore{
-            width: 100px;
-            margin: 30px 0px 0px 100px;
-        }
-        #imggoogleplay{
-            width: 100px;
-            margin: 30px 0px 0px 15px;
-        }
-        #qrimgapple{
-            width: 100px;
-            margin: 20px 0px 0px 85px;
-        }
-        #qrimggoogle{
-            width: 100px;
-            margin: 20px 0px 0px 20px;
-        }
-        /* hero section end */
-
-        /* Unlock new funding and increase your NGO's impact with us! start */
-        #h1unlock1{
-            color: #d83456;
-            position: absolute;
-            margin: 640px 0px 0px 200px;
-            font-weight: bolder;
-        }
-        #h1unlock2{
-            color: #d83456;
-            position: absolute;
-            margin: 680px 0px 0px 480px;
-            font-weight: bolder;
-        }
-        #paraunlock{
-            position: absolute;
-            color: #54595f;
-            margin: 760px 0px 0px 150px;
-            word-spacing: 4px;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        #btnngo{
-            position: absolute;
-            color: #d83456;
-            background-color: white;
-            margin: 840px 0px 0px 580px;
-            border-radius: 7px;
-            width: 180px;
-            height: 40px;
-            font-size: 13px;
-            border-color: #d83456;
-            box-shadow: 10px black;
-            
-        }
-        #btnngo:hover{
-            color: white;
-            background-color: #d83456;
-        }
-        /* Unlock new funding and increase your NGO's impact with us! end */
-        /*microsoft teamimage start */
-        #imgmicrosoft{
-            position: absolute;
-            margin: 900px 0px 0px 100px;
-            width: 1150px;
-        }
-        #h1explainer{
-            position: absolute;
-            margin: 1450px 0px 0px 200px ;
-            color: #d83456;
-            font-weight: bold;
-        }
-        #h1demo{
-            position: absolute;
-            margin: 1450px 0px 0px 300px ;
-            color: #d83456;
-            font-weight: bold;
-        }
-        #video1{
-            width: 550px;
-            position: absolute;
-            margin: 1550px 0px 0px 90px;
-            height: 300px;
-        }
-        #video2{
-            width: 550px;
-            position: absolute;
-            margin: 1550px 0px 0px 150px;
-            height: 300px;
-        }
-        /* microsoft teamimage end */
-
-        /* Sign up and Register Your NGO start */
-        #h1register{
-            color: #d83456;
-            position: absolute;
-            margin: 1900px 0px 0px 350px;
-            font-weight: bolder;
-        }
-        #imgnfp{
-            position: absolute;
-            margin: 2000px 0px 0px 0px;
-            width: 750px;
-            height: 350px;
-        }
-        #pararegister{
-            position: absolute;
-            color: #54595f;
-            font-weight: bolder;
-            margin: 2150px 0px 0px 100px;
-            font-size: 16px;
-        }
-
-        /* Sign up and Register Your NGO end */
-        /* Get Your NGO Approved start */
-        #imgapproved{
-            position: absolute;
-            margin: 2450px 0px 0px 400px;
-            width: 800px;
-            height: 430px;
-        }
-        #pararapproved{
-            position: absolute;
-            color: #54595f;
-            margin: 2600px 0px 0px 40px;
-            /* font-weight: bold; */
-            font-size: 20px;
-        }
-        #h1approved{
-            position: absolute;
-            color: #d83456;
-            font-weight:bolder ;
-            margin: 2380px 0px 0px 440px;
-        }
-        /* Get Your NGO Approved end */
-        /* Complete Setup start */
-        #h1complete{
-            position: relative;
-            color: #d83456; 
-            margin: 2900px 0px 0px 500px;
-            font-weight: bolder;
-        }
-        #imgcomplete{
-            width: 800px;
-            height: 430px;
-            margin: 30px 0px 0px 0px ;
-        }
-        #paracomplete{
-            color: #54595f;
-            font-size: 17px;
-            margin: 200px 40px 0px 20px;
-            font-weight: bold;
-        }
-        /* Complete Setup end */
-
-        /* Create Causes/ Campaigns start */
-        #h1creat{
-            color: #d83456;
-            margin: 30px 0px 0px 400px;
-            font-weight: bolder ;
-        }
-        #imgcreat{
-            width: 700px;
-            height: 300px;
-            margin: 0px 40px 0px 0px;
-        }
-        #paracreat{
-            color: #54595f;
-            margin: 90px 0px 0px 100px ;
-            font-weight: bolder;
-        }
-        /* Create Causes/ Campaigns end */
-
-        /* Add Bank Account Details start */
-        #h1bank{
-            color: #d83456;
-            font-weight: bolder;
-            margin: 30px 0px 0px 400px;
-        }
-        #imgbank{
-            width: 800px;
-            height: 430px;
-            margin: 20px 30px 0px 40px ;
-        }
-        #parabank{
-            color: #54595f;
-            margin: 200px 0px 0px 90px;
-            font-size: 18px;
-            font-weight: bolder;
-
-        }
-        /* Add Bank Account Details end */
-
-        /* Create Aid Packages start */
-        #h1packeg{
-            color: #d83456;
-            margin: 40px 0px 0px 450px;
-            font-weight: bolder;
-        }
-        #imgpackeg{
-            width: 730px;
-            height: 400px;
-            margin: 20px 80px 0px 0px;
-        }
-        #parapackeg{
-            color: #54595f;
-            font-weight: bolder;
-            margin: 150px 0px 0px 20px;
-        }
-        /* Create Aid Packages end*/
-        /* ACT Now to Contribute towards Flood Relief start */
-        #h1contribute{
-            color: #d83456;
-            font-weight: bolder;
-            margin: 30px 0px 0px 250px;
-            font-weight: bolder;
-        }
-        #videocontribute{
-            width: 550px;
-            height: 300px;
-            margin: 80px 0px 0px 30px;
-        }
-        #paracontribute{
-            color: #54595f;
-            font-weight: bolder;
-            margin: 150px 0px 0px 40px;
-            font-size: 17px;
-        }
-
-        /* ACT Now to Contribute towards Flood Relief end */
-
-        /*  */
-        #h1download{
-            color: #d83456;
-            font-weight: bolder;
-            margin: 60px 0px 0px 500px;
-        }
-        #imgapple{
-            width: 100px;
-            margin-left: 550px;
-            margin-top: 20px;
-            
-        }
-        #imggoogle{
-            width: 100px;
-            margin-top: 20px;
-            
-        
-        }
-        #imgappleqr{
-            width: 135px;
-            margin: 10px 0px 0px 520px;
-        }
-        #imgqrgoogle{
-            width: 135px;
-            margin-left: -30px;
-            margin-top: 20px;
-        }
-        /*  */
-
-    </style>
+<<<<<<< HEAD
+       
+=======
+>>>>>>> 0c2bbb145930bb618fed11757bf16b98b4a567e7
 </head>
 <body>
+    <!-- Navbar start -->
+    <div class="container-fluid">
+        <!-- row start -->
+        <div class="row bg-light p-1">
+            <div class="col-1"></div>
+            <!-- Logo image -->
+            <div class="col-3">
+                <img src="./assets/images/MIM-Logo-2 (1).svg" alt="logo not found" id="logimg">
+            </div>
+            <!-- Nav section -->
+            <div class="col-7 p-1" id="nav-right">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Roles
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Impactor</a></li>
+                                        <li><a class="dropdown-item" href="#">NGO</a></li>
+                                        <li><a class="dropdown-item" href="#">Grocery Supplier</a></li>
+                                        <li><a class="dropdown-item" href="#">Education Supplier</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Resources
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">#EndPoverinPakistan</a></li>
+                                        <li><a class="dropdown-item" href="#">Impac Tech</a></li>
+                                        <li><a class="dropdown-item" href="#">Reports & Insights</a></li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">News & Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- nav-end -->
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <!-- row end -->
+
     <!-- hero section -->
     <div class="hero">
         <div class="container-fluid">

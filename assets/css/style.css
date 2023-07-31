@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 *
 {
     padding: 0;
@@ -22,14 +24,259 @@
 /* Nav-bar code end */
 
 /* Header-img start */
+/* Header-img start */
 #header{
     height: 600px;
     width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/jannes-jacobs-FvGo3A9ptM0-unsplash-1-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/jannes-jacobs-FvGo3A9ptM0-unsplash-1-scaled.jpg);
+    background-position: center;
+    
 }
-/* About css */
+.header-text{
+    position: absolute;
+    top: 35%;
+    left: 140px;
+}
+#apptitle{
+    position: absolute;
+    top: 60%;
+    left: 140px;
+}
+#playstore{
+    position: absolute;
+    top:70%;
+    left: 240px;
+}
+#applestore{
+    position: absolute;
+    top:70% ;
+    left: 130px;
+}
+#scanner1{
+    position: absolute;
+    top:77% ;
+    left: 130px;
+}
+#scanner2{
+    position: absolute;
+    top:77% ;
+    left: 240px;
+}
+
+/* Header image End */
+
+/* I Am Section Start */
+.impactor-box{
+    box-shadow: 2px 1px 10px 0px rgba(0.017349243164081683, 0.017349243164081683, 0.017349243164081683, 0.14);
+    border-style:solid ;
+    border-color: var(--e-global-color-4f42aec );
+    border: none;
+    padding-left: 30px;
+}
+.ngo-h{
+    color: #345695;   
+}
+.myHeading a{
+    color: #345695;
+}
+.impactor-fl{
+    font-size: 18px;
+}
+.impactor-button{
+    border-radius: 20px;
+    box-shadow: none;
+}
+/* I am Section Start */
+
+/* Our Model Section Start */
+.ourmodel{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.ourmodel1{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.ourmodel2{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+.ourmodel3{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 65%;
+}
+.ourmodel-icon1{
+    font-size: 36px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+.ourmodel1:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel1:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.ourmodel2:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel2:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.ourmodel3:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel3:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.model-content a{
+    font-size: 16px;
+    color: gray;
+}
+.model-content {
+    font-size: 16px;
+    color: gray;
+}
+/* Our Model Section End */
+/* Startof Poverty Section in Home Page */
+.poverty-section{
+    display: block;
+}
+.poverty-left{
+    float: left;
+}
+.poverty-right{
+    float: right;
+}
+/* End of Poverty Section in Home Page */
+
+/* Start of Footer Section */
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #132d5c;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 0px !important;
+}
+.Contact-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+.Company-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 37%;
+}
+.App-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 65%;
+}
+.footer-icons a i{
+    font-size: 30px;
+    color:white;
+    background-color: #6EC1E4;
+    border: 2px solid #6EC1E4;
+    border-radius: 10px;
+    transition: width 2s,height 2s;
+}
+.footer-icons a i:hover{
+    width:40px;
+}
+
+
+/* End of Footer Section */
+/* Home Page End */
+
+/* Grocery Supplier html Start */
+#groceryHeader{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/Grocery_supplier_images/Spice_market-India-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.header-text{
+    position: absolute;
+    top: 35%;
+    left: 140px;
+}
+#apptitle{
+    position: absolute;
+    top: 60%;
+    left: 140px;
+}
+#playstore{
+    position: absolute;
+    top:75%;
+    left: 240px;
+}
+#applestore{
+    position: absolute;
+    top:75% ;
+    left: 130px;
+}
+#scanner1{
+    position: absolute;
+    top:85% ;
+    left: 130px;
+}
+#scanner2{
+    position: absolute;
+    top:85% ;
+    left: 240px;
+}
+/* why become a grocery supplier section */
+.Grocery-cards{
+    width: 80%;
+    height: 400px;
+    position: relative;
+}
+.Grocery-cards1{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Grocery-cards2{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left:65%;
+}
+
+/* MiM Shops Section */
+.firstrow:hover .lahore h2{
+    display: block;
+    background-color: #010101;
+}
+/* About us css */
 .bg{
     width: 100%;
     height: 500px;
@@ -68,10 +315,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
+   
+    
 }
 .home-bg > img {
-    width: 36%;
     height: 379px;
+    width: 40%;
+    margin-left: 200px;
 }
 .home-content-main-heading {
     display: flex;
@@ -202,14 +452,10 @@
         border-style: solid;
         border-color: #d83456;
 }
-button {
+button > span {
     color: #345695;
+    font-weight: 900;
 }
-.accordion-header > a[aria-expanded='false'] {
-    color: #345695;
-    font-weight: 500;
-}
-
 .m-team{
     display: flex;
     align-items: center;
@@ -258,19 +504,19 @@ button {
 }
 .profile-title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bolder;
     color: #d83456;
 }
 .profile-designation {
     font-size: 13px;
-    font-weight: 500;
+    font-weight: bolder;
     margin-top: -10px;
     text-emphasis-style: bold;
     color: #d83456;
 }
 .profile-content {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bolder;
     color: #54595f;
 }
 .t-team {
@@ -284,12 +530,13 @@ button {
     position: sticky;
     margin-top: 50px;
     font-size: 39px;
-    font-weight: 600;
+    font-weight: bolder;
 }
 .t-team-details {
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
+    font-weight: bolder;
     width: 884px;
     height: 52px;
     margin-left: 220px;
@@ -320,7 +567,7 @@ button {
 }
 .profile2 > .profile-title {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bolder;
     color: #d83456;
 }
 .profile2 > .profile-content {
@@ -335,3 +582,619 @@ button {
 }
 
 /* About css end */
+
+
+ /* hero section start */
+ .hero{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    background-image: url(./assets/images/chayene-rafaela-nGwkIZFelko-unsplash_11zon.jpg);
+    background-size: cover;
+    background-position-x: right;
+    position: absolute;
+}
+#h1focus{
+    color: white;
+    margin: 230px 0px 0px 90px;
+    font-size: 40px;    
+}
+#h1down{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0px 0px 125px;
+    font-weight: bolder;
+}
+#imgapplestore{
+    width: 100px;
+    margin: 30px 0px 0px 100px;
+}
+#imggoogleplay{
+    width: 100px;
+    margin: 30px 0px 0px 15px;
+}
+#qrimgapple{
+    width: 100px;
+    margin: 20px 0px 0px 85px;
+}
+#qrimggoogle{
+    width: 100px;
+    margin: 20px 0px 0px 20px;
+}
+/* hero section end */
+
+/* Unlock new funding and increase your NGO's impact with us! start */
+#h1unlock1{
+    color: #d83456;
+    position: absolute;
+    margin: 640px 0px 0px 200px;
+    font-weight: bolder;
+}
+#h1unlock2{
+    color: #d83456;
+    position: absolute;
+    margin: 680px 0px 0px 480px;
+    font-weight: bolder;
+}
+#paraunlock{
+    position: absolute;
+    color: #d83456;
+    margin: 760px 0px 0px 150px;
+    word-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btnngo{
+    position: absolute;
+    color: #d83456;
+    background-color: white;
+    margin: 840px 0px 0px 580px;
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    border-color: #d83456;
+    box-shadow: 10px black;
+    
+}
+#btnngo:hover{
+    color: white;
+    background-color: #d83456;
+}
+/* Unlock new funding and increase your NGO's impact with us! end */
+/*microsoft teamimage start */
+#imgmicrosoft{
+    position: absolute;
+    margin: 900px 0px 0px 100px;
+    width: 1150px;
+}
+#h1explainer{
+    position: absolute;
+    margin: 1450px 0px 0px 200px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#h1demo{
+    position: absolute;
+    margin: 1450px 0px 0px 300px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#video1{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 90px;
+    height: 300px;
+}
+#video2{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 150px;
+    height: 300px;
+}
+/* microsoft teamimage end */
+
+/* Sign up and Register Your NGO start */
+#h1register{
+    color: #d83456;
+    position: absolute;
+    margin: 1900px 0px 0px 350px;
+    font-weight: bolder;
+}
+#imgnfp{
+    position: absolute;
+    margin: 2000px 0px 0px 0px;
+    width: 750px;
+    height: 350px;
+}
+#pararegister{
+    position: absolute;
+    color: #d83456;
+    font-weight: bolder;
+    margin: 2150px 0px 0px 100px;
+    font-size: 16px;
+}
+
+/* Sign up and Register Your NGO end */
+/* Get Your NGO Approved start */
+#imgapproved{
+    position: absolute;
+    margin: 2450px 0px 0px 400px;
+    width: 800px;
+    height: 430px;
+}
+#pararapproved{
+    position: absolute;
+    color: #d83456;
+    margin: 2600px 0px 0px 40px;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+#h1approved{
+    position: absolute;
+    color: #d83456;
+    font-weight:bolder ;
+    margin: 2380px 0px 0px 440px;
+}
+/* Get Your NGO Approved end */
+/* Complete Setup start */
+#h1complete{
+    position: relative;
+    color: #d83456; 
+    margin: 2900px 0px 0px 500px;
+    font-weight: bolder;
+}
+#imgcomplete{
+    width: 800px;
+    height: 430px;
+    margin: 30px 0px 0px 0px ;
+}
+#paracomplete{
+    color: #d83456;
+    font-size: 17px;
+    margin: 200px 40px 0px 20px;
+    font-weight: bold;
+}
+/* Complete Setup end */
+
+/* Create Causes/ Campaigns start */
+#h1creat{
+    color: #d83456;
+    margin: 30px 0px 0px 400px;
+    font-weight: bolder ;
+}
+#imgcreat{
+    width: 700px;
+    height: 300px;
+    margin: 0px 40px 0px 0px;
+}
+#paracreat{
+    color: #d83456;
+    margin: 90px 0px 0px 100px ;
+    font-weight: bolder;
+}
+/* Create Causes/ Campaigns end */
+
+/* Add Bank Account Details start */
+#h1bank{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 400px;
+}
+#imgbank{
+    width: 800px;
+    height: 430px;
+    margin: 20px 30px 0px 40px ;
+}
+#parabank{
+    color: #d83456;
+    margin: 200px 0px 0px 90px;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+/* Add Bank Account Details end */
+
+/* Create Aid Packages start */
+#h1packeg{
+    color: #d83456;
+    margin: 40px 0px 0px 450px;
+    font-weight: bolder;
+}
+#imgpackeg{
+    width: 730px;
+    height: 400px;
+    margin: 20px 80px 0px 0px;
+}
+#parapackeg{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 150px 0px 0px 20px;
+}
+/* Create Aid Packages end*/
+/* ACT Now to Contribute towards Flood Relief start */
+#h1contribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 250px;
+    font-weight: bolder;
+}
+#videocontribute{
+    width: 550px;
+    height: 300px;
+    margin: 80px 0px 0px 30px;
+}
+#paracontribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 170px 0px 0px 40px;
+    font-size: 17px;
+}
+
+/* ACT Now to Contribute towards Flood Relief end */
+
+/*  */
+#h1download{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 60px 0px 0px 500px;
+}
+#imgapple{
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 20px;
+    
+}
+#imggoogle{
+    width: 100px;
+    margin-top: 20px;
+    
+
+}
+#imgappleqr{
+    width: 135px;
+    margin: 10px 0px 0px 520px;
+}
+#imgqrgoogle{
+    width: 135px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+/*  */
+
+/* Newss and blog start */
+/* Blogs section home page */
+.home > h3 {
+    color: #484f5e;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    line-height: 1.1;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    width: 80%;
+}
+.home h3 > a{
+    color: #364596;
+    font-size: 24px;
+    text-decoration: none;  
+}
+.blog-data {
+    font-size: 14px;
+}
+p > span {
+   color: #d83456;
+}
+.blog-img{
+    width: 280px;
+    height: 192px;
+    display: flex;
+}
+.blog-img > img {
+    width: 280px;
+    height: 187px;
+}
+.entry-summary {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+}
+.entry-summary > p {
+    font-size: 14px;
+    color: #54595f;
+    font-weight: bold;
+}
+.entry-summary > button {
+    color: #d83456;
+    border-radius: 8px;
+    border: solid #d83456;
+    padding: 5px;
+    background: #fff;
+}
+.entry-summary > button:hover {
+    color: white;
+    background: #d83456;
+}
+
+ /* news and blog end */
+
+
+
+ /* hero section start */
+ .hero{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    background-image: url(./assets/images/chayene-rafaela-nGwkIZFelko-unsplash_11zon.jpg);
+    background-size: cover;
+    background-position-x: right;
+    position: absolute;
+}
+#h1focus{
+    color: white;
+    margin: 230px 0px 0px 90px;
+    font-size: 40px;    
+}
+#h1down{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0px 0px 125px;
+    font-weight: bolder;
+}
+#imgapplestore{
+    width: 100px;
+    margin: 30px 0px 0px 100px;
+}
+#imggoogleplay{
+    width: 100px;
+    margin: 30px 0px 0px 15px;
+}
+#qrimgapple{
+    width: 100px;
+    margin: 20px 0px 0px 85px;
+}
+#qrimggoogle{
+    width: 100px;
+    margin: 20px 0px 0px 20px;
+}
+/* hero section end */
+
+/* Unlock new funding and increase your NGO's impact with us! start */
+#h1unlock1{
+    color: #d83456;
+    position: absolute;
+    margin: 640px 0px 0px 200px;
+    font-weight: bolder;
+}
+#h1unlock2{
+    color: #d83456;
+    position: absolute;
+    margin: 680px 0px 0px 480px;
+    font-weight: bolder;
+}
+#paraunlock{
+    position: absolute;
+    color: #54595f;
+    margin: 760px 0px 0px 150px;
+    word-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btnngo{
+    position: absolute;
+    color: #d83456;
+    background-color: white;
+    margin: 840px 0px 0px 580px;
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    border-color: #d83456;
+    box-shadow: 10px black;
+    
+}
+#btnngo:hover{
+    color: white;
+    background-color: #d83456;
+}
+/* Unlock new funding and increase your NGO's impact with us! end */
+/*microsoft teamimage start */
+#imgmicrosoft{
+    position: absolute;
+    margin: 900px 0px 0px 100px;
+    width: 1150px;
+}
+#h1explainer{
+    position: absolute;
+    margin: 1450px 0px 0px 200px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#h1demo{
+    position: absolute;
+    margin: 1450px 0px 0px 300px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#video1{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 90px;
+    height: 300px;
+}
+#video2{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 150px;
+    height: 300px;
+}
+/* microsoft teamimage end */
+
+/* Sign up and Register Your NGO start */
+#h1register{
+    color: #d83456;
+    position: absolute;
+    margin: 1900px 0px 0px 350px;
+    font-weight: bolder;
+}
+#imgnfp{
+    position: absolute;
+    margin: 2000px 0px 0px 0px;
+    width: 750px;
+    height: 350px;
+}
+#pararegister{
+    position: absolute;
+    color: #54595f;
+    font-weight: bolder;
+    margin: 2150px 0px 0px 100px;
+    font-size: 16px;
+}
+
+/* Sign up and Register Your NGO end */
+/* Get Your NGO Approved start */
+#imgapproved{
+    position: absolute;
+    margin: 2450px 0px 0px 400px;
+    width: 800px;
+    height: 430px;
+}
+#pararapproved{
+    position: absolute;
+    color: #54595f;
+    margin: 2600px 0px 0px 40px;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+#h1approved{
+    position: absolute;
+    color: #d83456;
+    font-weight:bolder ;
+    margin: 2380px 0px 0px 440px;
+}
+/* Get Your NGO Approved end */
+/* Complete Setup start */
+#h1complete{
+    position: relative;
+    color: #d83456; 
+    margin: 2900px 0px 0px 500px;
+    font-weight: bolder;
+}
+#imgcomplete{
+    width: 800px;
+    height: 430px;
+    margin: 30px 0px 0px 0px ;
+}
+#paracomplete{
+    color: #54595f;
+    font-size: 17px;
+    margin: 200px 40px 0px 20px;
+    font-weight: bold;
+}
+/* Complete Setup end */
+
+/* Create Causes/ Campaigns start */
+#h1creat{
+    color: #d83456;
+    margin: 30px 0px 0px 400px;
+    font-weight: bolder ;
+}
+#imgcreat{
+    width: 700px;
+    height: 300px;
+    margin: 0px 40px 0px 0px;
+}
+#paracreat{
+    color: #54595f;
+    margin: 90px 0px 0px 100px ;
+    font-weight: bolder;
+}
+/* Create Causes/ Campaigns end */
+
+/* Add Bank Account Details start */
+#h1bank{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 400px;
+}
+#imgbank{
+    width: 800px;
+    height: 430px;
+    margin: 20px 30px 0px 40px ;
+}
+#parabank{
+    color: #54595f;
+    margin: 200px 0px 0px 90px;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+/* Add Bank Account Details end */
+
+/* Create Aid Packages start */
+#h1packeg{
+    color: #d83456;
+    margin: 40px 0px 0px 450px;
+    font-weight: bolder;
+}
+#imgpackeg{
+    width: 730px;
+    height: 400px;
+    margin: 20px 80px 0px 0px;
+}
+#parapackeg{
+    color: #54595f;
+    font-weight: bolder;
+    margin: 150px 0px 0px 20px;
+}
+/* Create Aid Packages end*/
+/* ACT Now to Contribute towards Flood Relief start */
+#h1contribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 250px;
+    font-weight: bolder;
+}
+#videocontribute{
+    width: 550px;
+    height: 300px;
+    margin: 80px 0px 0px 30px;
+}
+#paracontribute{
+    color: #54595f;
+    font-weight: bolder;
+    margin: 150px 0px 0px 40px;
+    font-size: 17px;
+}
+
+/* ACT Now to Contribute towards Flood Relief end */
+
+/*  */
+#h1download{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 60px 0px 0px 500px;
+}
+#imgapple{
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 20px;
+    
+}
+#imggoogle{
+    width: 100px;
+    margin-top: 20px;
+    
+
+}
+#imgappleqr{
+    width: 135px;
+    margin: 10px 0px 0px 520px;
+}
+#imgqrgoogle{
+    width: 135px;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+/*  */
