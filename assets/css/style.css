@@ -163,15 +163,13 @@
     float: right;
 }
 /* End of Poverty Section in Home Page */
-
 /* Start of Footer Section */
 .footer{
     height: 400px;
-    width: 100%;
+    width: 100% !important;
     background-color: #132d5c;
     position: relative;
     margin-top: 80px;
-    margin-left: 0px !important;
 }
 .Contact-section{
     width: 25%;
@@ -272,10 +270,49 @@
 }
 
 /* MiM Shops Section */
-.firstrow:hover .lahore h2{
-    display: block;
-    background-color: #010101;
+
+
+.content{
+    height: 100%;
+    width: 94%;
+    position: absolute;
+    overflow: hidden;
+    bottom: -100%;
+    transition: all 0.5s;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.4);
+    transform: translate();
 }
+.lahore:hover .content{
+    bottom: 0;
+}
+.islamabad:hover .content{
+    bottom: 0;
+}
+.sialkot:hover .content{
+    bottom: 0;
+}
+.rawalpindi:hover .content{
+    bottom: 0;
+}
+.faisalabad:hover .content{
+    bottom: 0;
+}
+.peshawer:hover .content{
+    bottom: 0;
+}
+.gujranwala:hover .content{
+    bottom: 0;
+}
+.daska:hover .content{
+    bottom: 0;
+}
+.pano:hover .content{
+    bottom: 0;
+}
+
+/* About html */
 /* About us css */
 .bg{
     width: 100%;
@@ -864,6 +901,7 @@ button > span {
 /*  */
 
 /* Newss and blog start */
+
 /* Blogs section home page */
 .home > h3 {
     color: #484f5e;
@@ -883,11 +921,15 @@ button > span {
 .blog-data {
     font-size: 14px;
 }
+.blog-data > p {
+    font-size: 14px;
+    font-weight: bold;
+}
 p > span {
    color: #d83456;
 }
 .blog-img{
-    width: 280px;
+    width: 1280px;
     height: 192px;
     display: flex;
 }
@@ -896,9 +938,9 @@ p > span {
     height: 187px;
 }
 .entry-summary {
-    position: relative;
+    position: sticky;
     width: 600px;
-    height: 200px;
+    height: 187px;
     margin-left: 20px;
 }
 .entry-summary > p {
@@ -1199,3 +1241,21 @@ p > span {
     margin-top: 20px;
 }
 /*  */
+
+/* Reports and Insights start  */
+.heading > h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #d83456;
+    font-weight: 400;
+}
+.blog-img1{
+    width: 1280px;
+    height: 192px;
+    display: flex;
+}
+.blog-img1 > img {
+    width: 280px;
+    height: 265px;
+}
+/* Reports and Insights end  */
