@@ -1279,6 +1279,7 @@ p > span {
 .header-text1 > p {
     position: absolute;
     top: 28%;
+    left: 18%;
     color: #F2E9EB;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     font-family: "Poppins";
