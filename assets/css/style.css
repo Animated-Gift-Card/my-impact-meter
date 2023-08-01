@@ -31,8 +31,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/jannes-jacobs-FvGo3A9ptM0-unsplash-1-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: center; 
 }
 .header-text{
     position: absolute;
@@ -1259,3 +1258,64 @@ p > span {
     height: 265px;
 }
 /* Reports and Insights end  */
+
+/* PPHF start  */
+#header1{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/PPHF-banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+.header-text1 {
+    width: 80%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text1 > p {
+    position: absolute;
+    top: 28%;
+    color: #F2E9EB;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+}
+#apptitle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#apptitle1 > p{
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 18%;
+    font-size: 20px;
+    width: 300px;
+    height: 70px;
+}
+.codes {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 500px;
+    right: 56%;
+}
+.codes > #scanner11 {
+    position: absolute;
+    margin-right: 30px;
+}
+.codes > #scanner21 {
+    position: absolute;
+    left: 42%;
+}
+
+
+
+/* PPHF end  */
