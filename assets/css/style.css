@@ -310,7 +310,70 @@
 .pano:hover .content{
     bottom: 0;
 }
+/* Grocery Supplier End */
 
+/* Educational Supplier Start */
+
+#education-header{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/Educational-supplier-images/yannis-h-uaPaEM7MiQQ-unsplash-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.edu-btn{
+    height: 120px;
+    width: 40%;
+    margin: auto;
+    margin-top: 3%;
+}
+.edu-btn1{
+    margin-right: 10px;
+    border-radius: 20px;
+    color: #d83456;
+    background-color: white;
+}
+.edu-btn1:hover{
+    background:#d83456;
+    color: white;
+}
+.edu-btn2{
+    margin-left: 10px;
+    border-radius: 20px;
+    color: #d83456;
+    background-color: white;
+}
+.edu-btn2:hover{
+    background:#d83456;
+    color: white;
+}
+.expand-reach{
+ height: 400px;
+ width: 100%;
+ margin-left: 100px;
+}
+.increase-income{
+    height: 400px;
+    width: 100%;
+    margin-left: 20px;
+}
+.redemption{
+    height: 400px;
+    width: 100%;
+    margin-left: 30px;
+}
+.expand-icon{
+    height: 50px;
+    width: 15%; 
+    border: 2px solid #d83456 ;
+    border-radius: 50%;
+    color: #d83456 ;
+}
+.expand-icon:hover{
+ background-color:#d83456;
+ color: white;
+}
 /* About html */
 /* About us css */
 .bg{
@@ -1278,7 +1341,7 @@ p > span {
 }
 .header-text1 > p {
     position: absolute;
-    top: 28%;
+    top: 38%;
     left: 18%;
     color: #F2E9EB;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
@@ -1295,7 +1358,7 @@ p > span {
 #apptitle1 > p{
     position: absolute;
     text-align: center;
-    top: 48%;
+    top: 60%;
     left: 18%;
     font-size: 20px;
     width: 300px;
@@ -1306,7 +1369,7 @@ p > span {
     height: 300px;
     position: relative;
     top: 500px;
-    right: 56%;
+    right: 38%;
 }
 .codes > #scanner11 {
     position: absolute;
@@ -1316,6 +1379,8 @@ p > span {
     position: absolute;
     left: 42%;
 }
+
+
 
 
 
