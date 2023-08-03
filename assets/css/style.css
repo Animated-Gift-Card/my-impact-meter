@@ -1341,8 +1341,7 @@ p > span {
 }
 .header-text1 > p {
     position: absolute;
-    top: 38%;
-    left: 18%;
+    top: 28%;
     color: #F2E9EB;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     font-family: "Poppins";
@@ -1358,7 +1357,7 @@ p > span {
 #apptitle1 > p{
     position: absolute;
     text-align: center;
-    top: 60%;
+    top: 48%;
     left: 18%;
     font-size: 20px;
     width: 300px;
@@ -1369,7 +1368,7 @@ p > span {
     height: 300px;
     position: relative;
     top: 500px;
-    right: 38%;
+    right: 56%;
 }
 .codes > #scanner11 {
     position: absolute;
@@ -1569,7 +1568,5 @@ p > span {
     position: absolute;
     right: 10%;
 }
-
-
 
 /* PPHF end  */
