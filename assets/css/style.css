@@ -1489,9 +1489,9 @@ p > span {
 }
 .laptop-icon {
     position: absolute;
-    top: 10;
     height: 60px;
     width: 60px;
+    top: 0;
 }
 .laptop-icon > .fa, .fas {
     font-family: 'Font Awesome 5 Free';
