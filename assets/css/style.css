@@ -193,6 +193,7 @@
 }
 .footer-icons a i{
     font-size: 30px;
+    border-radius: 65px;
     color:white;
     background-color: #6EC1E4;
     border: 2px solid #6EC1E4;
