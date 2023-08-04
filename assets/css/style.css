@@ -23,7 +23,7 @@
 
 /* Nav-bar code end */
 
-/* Header-img start */
+
 /* Header-img start */
 #header{
     height: 600px;
@@ -32,26 +32,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-}
-.header-text{
-    position: absolute;
-    top: 35%;
-    left: 140px;
-}
-#apptitle{
-    position: absolute;
-    top: 60%;
-    left: 140px;
-}
-#playstore{
-    position: absolute;
-    top:70%;
-    left: 240px;
-}
-#applestore{
-    position: absolute;
-    top:70% ;
-    left: 130px;
 }
 #scanner1{
     position: absolute;
@@ -314,14 +294,13 @@
 /* Grocery Supplier End */
 
 /* Educational Supplier Start */
-
-#education-header{
+#eduheader{
     height: 600px;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/Educational-supplier-images/yannis-h-uaPaEM7MiQQ-unsplash-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
 }
 .edu-btn{
     height: 120px;
