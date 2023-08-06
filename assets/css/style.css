@@ -1428,7 +1428,7 @@ p > span {
     width: 60px;
     top: 0;
 }
-.laptop-icon > {
+.laptop-icon > .fa, .fas {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 1.6rem;
@@ -1505,3 +1505,78 @@ p > span {
 }
 
 /* PPHF end  */
+
+/* .active-by-akhuat */
+#header12{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/luca-bravo-XJXWbfSo2f0-unsplash_11zon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.it-traininga {
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.it-traininga > h3 {
+    margin: 4% 0% 0% 0%;
+    padding: 0px 0px 0px 0px;
+    color: #364596;
+    font-family: "Poppins";
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 25px;
+    position: absolute;
+}
+.it-traininga > p {
+    position: absolute;
+    top: 66%;
+}
+.it-training1a {
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 50%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.it-training1a > h3 {
+    margin: 4% 0% 0% 0%;
+    padding: 0px 0px 0px 0px;
+    color: #364596;
+    font-family: "Poppins";
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 25px;
+    position: absolute;
+}
+.it-training1a > p {
+    position: absolute;
+    top: 66%;
+}
+.img-con1 {
+    width: 100%;
+    height: 150px;
+}
+.img-con1> .img1 {
+    width: 20%;
+    position: absolute;
+    left: 8%;
+}
+.img-con1 > .img2 {
+    width: 25%;
+    position: absolute;
+    right: 10%;
+}
+/* .active-by-akhuat end */
+
+
+
