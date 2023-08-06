@@ -120,17 +120,6 @@
     color: gray;
 }
 /* Our Model Section End */
-/* Startof Poverty Section in Home Page */
-.poverty-section{
-    display: block;
-}
-.poverty-left{
-    float: left;
-}
-.poverty-right{
-    float: right;
-}
-/* End of Poverty Section in Home Page */
 /* Start of Footer Section */
 .footer{
     height: 400px;
@@ -314,11 +303,23 @@
  color: white;
 }
 /* Educational Supplier End */
+/* Career Page Start */
 .fd-input{
     height: 80px;
     width: 100%;
     border: 1px solid grey;
 }
+/* Career Page End */
+
+/* #EndPovertyinPakistan */
+.poverty-header{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/MiM-Web-SLIDE-Banner-Green-poverty-v3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 /* About html */
 /* About us css */
 .bg{
