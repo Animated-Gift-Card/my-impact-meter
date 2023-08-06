@@ -176,68 +176,57 @@
     background-position: center;
     
 }
-/* why become a grocery supplier section */
-.Grocery-cards{
-    width: 80%;
-    height: 400px;
-    position: relative;
-}
-.Grocery-cards1{
-    width: 50%;
-    height: 400px;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-}
-.Grocery-cards2{
-    width: 50%;
-    height: 400px;
-    position: absolute;
-    top: 20%;
-    left:65%;
-}
-
 /* MiM Shops Section */
 
 
 .content{
     height: 100%;
-    width: 94%;
+    width: 95%;
     position: absolute;
     overflow: hidden;
     bottom: -100%;
     transition: all 0.5s;
     padding: 10px;
     color: white;
-    background-color: rgb(0, 0, 0,0.4);
+    background-color: rgb(0, 0, 0,0.7);
     transform: translate();
+    display: none;
 }
 .lahore:hover .content{
     bottom: 0;
+    display: block;
 }
 .islamabad:hover .content{
     bottom: 0;
+    display: block;
 }
 .sialkot:hover .content{
     bottom: 0;
+    display: block;
 }
 .rawalpindi:hover .content{
     bottom: 0;
+    display: block;
 }
 .faisalabad:hover .content{
     bottom: 0;
+    display: block;
 }
 .peshawer:hover .content{
     bottom: 0;
+    display: block;
 }
 .gujranwala:hover .content{
     bottom: 0;
+    display: block;
 }
 .daska:hover .content{
     bottom: 0;
+    display: block;
 }
 .pano:hover .content{
     bottom: 0;
+    display: block;
 }
 /* Grocery Supplier End */
 
